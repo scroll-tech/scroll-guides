@@ -1,4 +1,4 @@
-<img src="./assets/banner.png" alt="scroll-banner"/>
+![Scroll Guides](./assets/scroll_guides_banner.png)
 
 # Scroll Guides
 
