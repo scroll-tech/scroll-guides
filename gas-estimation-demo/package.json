@@ -32,6 +32,7 @@
   },
   "dependencies": {
     "@ethersproject/transactions": "^5.7.0",
-    "@scroll-tech/contracts": "^0.0.3"
+    "@scroll-tech/contracts": "^0.0.3",
+    "install": "^0.13.0"
   }
 }

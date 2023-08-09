@@ -4,7 +4,7 @@ import "@nomicfoundation/hardhat-toolbox";
 require("dotenv").config();
 const {
   RPC_SCROLL,
-  RPC_ETHEREUM_GOERLI,
+  RPC_ETHEREUM_SEPOLIA,
   RPC_POLYGON,
   PRIVATE_KEY
 } = process.env;
@@ -16,8 +16,8 @@ const config: HardhatUserConfig = {
       url: RPC_SCROLL,
       accounts: [`0x${PRIVATE_KEY}`]
     },
-    goerli: {
-      url: RPC_ETHEREUM_GOERLI,
+    sepolia: {
+      url: RPC_ETHEREUM_SEPOLIA,
       accounts: [`0x${PRIVATE_KEY}`]
     },
     polygon: {
