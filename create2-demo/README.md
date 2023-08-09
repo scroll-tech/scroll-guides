@@ -16,11 +16,9 @@ To run the project, you need:
 5. Deploy contracts with `hardhat run ./scripts/deploy.ts --network [NETWORK_ENUM]`
 
 ## Deployments
-Ξ Ethereum Goerli:  
-`ExampleContractFactory`: [0xD8657AFF673DE9C643D059c7188BF73Fc7A4277C](https://goerli.etherscan.io/address/0xD8657AFF673DE9C643D059c7188BF73Fc7A4277C)
+Ξ Ethereum Sepolia:  
+`ExampleContractFactory`: [0x92662CdAEC263f95d19da35D24707EEa568ffD24](https://sepolia.etherscan.io/address/0x92662CdAEC263f95d19da35D24707EEa568ffD24)
 
 📜 Scroll:  
-`ExampleContractFactory`: [0xD8657AFF673DE9C643D059c7188BF73Fc7A4277C](https://blockscout.scroll.io/address/0xD8657AFF673DE9C643D059c7188BF73Fc7A4277C)
+`ExampleContractFactory`: [0x92662CdAEC263f95d19da35D24707EEa568ffD24](https://sepolia-blockscout.scroll.io/address/0x92662CdAEC263f95d19da35D24707EEa568ffD24)
 
-🟣 Polygon:  
-`ExampleContractFactory`: [0xD8657AFF673DE9C643D059c7188BF73Fc7A4277C](https://polygonscan.com/address/0xD8657AFF673DE9C643D059c7188BF73Fc7A4277C)

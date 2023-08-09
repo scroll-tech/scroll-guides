@@ -16,4 +16,4 @@ To run the project, you need:
 
 ## Deployments
 📜 Scroll Alpha Testnet:  
-`ExampleContract`: [0xc37ee92c73753B46eB865Ee156d89741ad0a8777](https://blockscout.scroll.io/address/0xc37ee92c73753B46eB865Ee156d89741ad0a8777)
+`ExampleContract`: [0x099B69567950B00f3Fadf220eb3627441a6f85F0](https://sepolia-blockscout.scroll.io/address/0x099B69567950B00f3Fadf220eb3627441a6f85F0)

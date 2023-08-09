@@ -2,11 +2,9 @@ import { HardhatUserConfig } from "hardhat/config";
 import "@nomicfoundation/hardhat-toolbox";
 import "hardhat-dependency-compiler";
 
-require("dotenv").config();
-const {
-  RPC_SCROLL,
-  PRIVATE_KEY
-} = process.env;
+import * as dotenv from "dotenv";
+
+dotenv.config();
 
 const config: HardhatUserConfig = {
   solidity: {
@@ -14,16 +12,17 @@ const config: HardhatUserConfig = {
     settings: {
       optimizer: {
         enabled: true,
-        runs: 200
+        runs: 200,
       },
       evmVersion: "london"
     }
   },
   networks: {
     scroll: {
-      url: RPC_SCROLL,
-      accounts: [`0x${PRIVATE_KEY}`]
-    }
+      url: process.env.SCROLL_TESTNET_URL || "",
+      accounts:
+        process.env.PRIVATE_KEY !== undefined ? [process.env.PRIVATE_KEY] : [],
+    },
   },
   defaultNetwork: "scroll",
   dependencyCompiler: {
@@ -34,3 +33,4 @@ const config: HardhatUserConfig = {
 };
 
 export default config;
+
