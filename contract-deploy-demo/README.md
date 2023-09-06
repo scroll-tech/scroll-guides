@@ -1,3 +1,5 @@
+<img src="../assets/banner.png" alt="create2-banner"/>
+
 # Scroll Contract Deployment Demo
 
 This project demonstrates how to use hardhat or foundry to deploy a contract in Scroll's rollup network. This project contains a simple contract that will lock a certain amount of Ether in the deployed contract for a specified amount of time.
