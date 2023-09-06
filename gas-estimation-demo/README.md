@@ -1,4 +1,4 @@
-<img src="./assets/banner.png" alt="scroll-banner"/>
+<img src="../assets/banner.png" alt="scroll-banner"/>
 
 # Scroll Gas Estimation Example
 
