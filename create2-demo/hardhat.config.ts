@@ -2,6 +2,7 @@ import { HardhatUserConfig } from "hardhat/config";
 import "@nomicfoundation/hardhat-toolbox";
 
 require("dotenv").config();
+
 const {
   RPC_SCROLL,
   RPC_ETHEREUM_SEPOLIA,
@@ -14,15 +15,11 @@ const config: HardhatUserConfig = {
   networks: {
     scroll: {
       url: RPC_SCROLL,
-      accounts: [`0x${PRIVATE_KEY}`]
+      accounts: [ PRIVATE_KEY || "1".repeat(64) ]
     },
     sepolia: {
       url: RPC_ETHEREUM_SEPOLIA,
-      accounts: [`0x${PRIVATE_KEY}`]
-    },
-    polygon: {
-      url: RPC_POLYGON,
-      accounts: [`0x${PRIVATE_KEY}`]
+      accounts: [ PRIVATE_KEY || "1".repeat(64) ]
     }
   }
 };

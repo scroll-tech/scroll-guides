@@ -22,7 +22,7 @@ To run the project, you need:
 ## Deployments
 
 Ξ Ethereum Sepolia:  
-`ExampleContractFactory`: [0x92662CdAEC263f95d19da35D24707EEa568ffD24](https://sepolia.etherscan.io/address/0x92662CdAEC263f95d19da35D24707EEa568ffD24)
+`ExampleContractFactory`: [0x1d420BB5674Faaf0F14b6F23650bf616AE2d32b9](https://sepolia.etherscan.io/address/0xdbb991616CE0E6a0553258bd34bC1478042C03C2)
 
 📜 Scroll:  
-`ExampleContractFactory`: [0x92662CdAEC263f95d19da35D24707EEa568ffD24](https://sepolia-blockscout.scroll.io/address/0x92662CdAEC263f95d19da35D24707EEa568ffD24)
+`ExampleContractFactory`: [0x1d420BB5674Faaf0F14b6F23650bf616AE2d32b9](https://sepolia.scrollscan.dev/address/0x1d420BB5674Faaf0F14b6F23650bf616AE2d32b9)
