@@ -403,6 +403,7 @@ To do so, you will need to pass a Merkle inclusion proof for the bridged transac
 
 After executing and confirming the transaction on both L1 and L2, the new state of `greeting` on the `Greeter` contract should be `“This message was cross-chain!”`. Sending a message from one chain to the other should take around 20 minutes after the transactions are confirmed on the origin chain.
 
+run `npx hardhat run --network hardhat scripts//cross-communication/get-greeter.ts` to get new state of greeting `This message was cross-chain!`
 Congratulations, you now executed a transaction from one chain to the other using our native bridge!
 
 ## Support
