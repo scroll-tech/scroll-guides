@@ -22,3 +22,7 @@ This project demonstrates how to use the `create2` opcode and tests it across va
 ### [gas-estimation-demo](https://github.com/scroll-tech/scroll-guides/tree/main/gas-estimation-demo)
 
 This project demonstrates how to use estimate gas on Scroll
+
+### [cross-chain-interaction-demo](https://docs.scroll.io/en/developers/guides/scroll-messenger-cross-chain-interaction/)
+
+This project demonstrates how to use cross chain interaction on Scroll
