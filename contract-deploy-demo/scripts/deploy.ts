@@ -7,10 +7,10 @@ async function main() {
 
   const lockedAmount = ethers.utils.parseEther("0.00000001");
 
-  const Lock = await ethers.getContractFactory("Lock");
-  const lock = await Lock.deploy(unlockTime, { value: lockedAmount });
-
-  await lock.deployed();
+  const lock = await ethers.deployContract("Lock", [unlockTime], {
+    value: lockedAmount,
+  });
+  await lock.waitForDeployment();
 
   console.log(`Lock with 0.00000001 ETH and unlock timestamp ${unlockTime} deployed to ${lock.address}`);
   console.log(`Block explorer URL: https://blockscout.scroll.io/address/${lock.address}`);
